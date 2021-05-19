@@ -1,0 +1,184 @@
+/* Import fonts */
+@font-face {
+  font-family: HK Grotesk;
+  src: url("https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2FHKGrotesk-Regular.otf?v=1603136326027")
+    format("opentype");
+}
+@font-face {
+  font-family: HK Grotesk;
+  font-weight: bold;
+  src: url("https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2FHKGrotesk-Bold.otf?v=1603136323437")
+    format("opentype");
+}
+
+/* change link properties */
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #000000;
+}
+
+a:active {
+  text-decoration: underline;
+  color: #000000;
+}
+/* make images fit within dividers */
+img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block; /* remove extra space below image */
+}
+/* make text box fit within dividers */
+.text-box {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+
+body {
+  font-family: HK Grotesk;
+  background-color: var(--color-bg);
+  margin: 2em;
+  background: #cbf1e4;
+  background-image: linear-gradient(#cbf1e4, white, #cbf1e4);
+  background-image: cover;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+.button1 {
+  border-radius: 1px;
+  color: #000000;
+  background-color: #68d911;
+  font-family: "Source Code Pro", monospace;
+  font-size: 14px;
+}
+
+/* Float four columns side by side */
+.column {
+  float: left;
+  width: 25%;
+  padding: 0 6px;
+}
+.columnS {
+  float: left;
+  width: 21%;
+  padding: 0 6px;
+}
+.columnL {
+  float: left;
+  width: 30%;
+  padding: 0 6px;
+}
+.columnXl {
+  float: left;
+  width: 33%;
+  padding: 0 6px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {
+  margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  border-radius: 10px 10px 10px 10px;
+  text-align: center;
+  background-color: white;
+  font-family: "PT Serif", serif;
+  font-size: 1.5em;
+}
+
+/* chickenwire make link text glow on hover */
+a.glow,
+a.glow:hover,
+a.glow:focus {
+  text-decoration: none;
+  color: red;
+  text-shadow: none;
+  -webkit-transition: 500ms linear 0s;
+  -moz-transition: 500ms linear 0s;
+  -o-transition: 500ms linear 0s;
+  transition: 500ms linear 0s;
+  outline: 0 none;
+}
+
+a.glow:hover,
+a.glow:focus {
+  color: white;
+  text-shadow: -1px 1px 8px black, 1px -1px 8px #fff;
+}
+/* One wide column */
+.column-wide {
+  float: center;
+  width: 100%;
+  padding: 0 6px;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .column-wide {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .columnS {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .columnL {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .columnXl {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* grit texture */
+.grit {
+  -webkit-mask-image: url("https://cdn.glitch.com/02600171-b43e-46dd-a21e-bfc0b9a82267%2Fgrit.png?v=1620470501324");
+  mask-image: url("https://cdn.glitch.com/02600171-b43e-46dd-a21e-bfc0b9a82267%2Fgrit.png?v=1620470501324");
+  mask-size: cover;
+}
