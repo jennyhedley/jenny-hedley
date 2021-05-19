@@ -103,13 +103,44 @@ p {
 
 /* Style the counter cards */
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
   padding: 16px;
   border-radius: 10px 10px 10px 10px;
   text-align: center;
   background-color: white;
   font-family: "PT Serif", serif;
   font-size: 1.5em;
+  background-image: url("https://cdn.glitch.com/02600171-b43e-46dd-a21e-bfc0b9a82267%2FcatBG.gif?v=1620459338357");
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+  padding: 16px;
+  border-radius: 10px 10px 10px 10px;
+  text-align: center;
+  background-color: white;
+  font-family: "PT Serif", serif;
+  font-size: 1.5em;
+  background-image: url("https://cdn.glitch.com/02600171-b43e-46dd-a21e-bfc0b9a82267%2FcatBG.gif?v=1620459338357");
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+  padding: 16px;
+  border-radius: 10px 10px 10px 10px;
+  text-align: center;
+  background-color: white;
+  font-family: "PT Serif", serif;
+  font-size: 1.5em;
+  background-image: url("https://cdn.glitch.com/02600171-b43e-46dd-a21e-bfc0b9a82267%2FcatBG.gif?v=1620459338357");
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+  padding: 16px;
+  border-radius: 10px 10px 10px 10px;
+  text-align: center;
+  background-color: white;
+  font-family: "PT Serif", serif;
+  font-size: 1.5em;
+  background-image: url("https://cdn.glitch.com/02600171-b43e-46dd-a21e-bfc0b9a82267%2FcatBG.gif?v=1620459338357");
 }
 
 /* chickenwire make link text glow on hover */
