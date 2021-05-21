@@ -1,15 +1,4 @@
-/* Import fonts */
-@font-face {
-  font-family: HK Grotesk;
-  src: url("https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2FHKGrotesk-Regular.otf?v=1603136326027")
-    format("opentype");
-}
-@font-face {
-  font-family: HK Grotesk;
-  font-weight: bold;
-  src: url("https://cdn.glitch.com/605e2a51-d45f-4d87-a285-9410ad350515%2FHKGrotesk-Bold.otf?v=1603136323437")
-    format("opentype");
-}
+
 
 /* change link properties */
 a:link {
@@ -41,14 +30,31 @@ img {
   max-height: 100%;
   display: block;
 }
+h1 {
+  font-family: 'Newsreader', serif;
+  color: blue;
+  font-size: 2em;
+}
+h2{
+  font-family: 'Newsreader', serif;
+  color: #cbf1e4;
+}
+p {
+  padding-bottom: 20px;
+  line-height: 17px;
+  font-family: 'Newsreader', serif;
+  font-size: 14px;
+  color: white;
+}
+/* set background image for poem title */
+
 
 body {
-  font-family: HK Grotesk;
-  background-color: var(--color-bg);
+  font-family: 'Newsreader', serif;
+  font-size: 12px;
   margin: 2em;
   background: #cbf1e4;
-  background-image: linear-gradient(#cbf1e4, white, #cbf1e4);
-  background-image: cover;
+  background-image: linear-gradient(#cbf1e4, blue, #cbf1e4);
 }
 
 p {
@@ -57,14 +63,6 @@ p {
 }
 * {
   box-sizing: border-box;
-}
-
-.button1 {
-  border-radius: 1px;
-  color: #000000;
-  background-color: #68d911;
-  font-family: "Source Code Pro", monospace;
-  font-size: 14px;
 }
 
 /* Float four columns side by side */
@@ -85,7 +83,7 @@ p {
 }
 .columnXl {
   float: left;
-  width: 33%;
+  width: 33.33%;
   padding: 0 6px;
 }
 
@@ -103,47 +101,172 @@ p {
 
 /* Style the counter cards */
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
   padding: 16px;
   border-radius: 10px 10px 10px 10px;
   text-align: center;
-  background-color: white;
+  background-color: #fffggg;
   font-family: "PT Serif", serif;
   font-size: 1.5em;
-  background-image: url("https://cdn.glitch.com/02600171-b43e-46dd-a21e-bfc0b9a82267%2FcatBG.gif?v=1620459338357");
+  margin-bottom: 20px;
 }
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
-  padding: 16px;
+.card11 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  padding-top: 110px;
+  padding-bottom: 110px;
   border-radius: 10px 10px 10px 10px;
-  text-align: center;
   background-color: white;
-  font-family: "PT Serif", serif;
-  font-size: 1.5em;
-  background-image: url("https://cdn.glitch.com/02600171-b43e-46dd-a21e-bfc0b9a82267%2FcatBG.gif?v=1620459338357");
+  background-image: url("https://cdn.glitch.com/06309045-d841-46c4-b69d-204a6d4df908%2Fplague-stories.png?v=1621559535939");
+  background-repeat: no-repeat;
+  background-attachment: cover;
+  background-position: center;
+  background-size: 100%;
+  margin-bottom: 20px;
 }
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
-  padding: 16px;
+.card10 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  padding-top: 110px;
+  padding-bottom: 110px;
   border-radius: 10px 10px 10px 10px;
-  text-align: center;
   background-color: white;
-  font-family: "PT Serif", serif;
-  font-size: 1.5em;
-  background-image: url("https://cdn.glitch.com/02600171-b43e-46dd-a21e-bfc0b9a82267%2FcatBG.gif?v=1620459338357");
+  background-image: url("https://cdn.glitch.com/06309045-d841-46c4-b69d-204a6d4df908%2Fverity.png?v=1621560805223");
+  background-repeat: no-repeat;
+  background-attachment: cover;
+  background-position: center;
+  background-size: 100%;
+  margin-bottom: 20px;
 }
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); 
-  padding: 16px;
+.card9 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  padding-top: 110px;
+  padding-bottom: 110px;
   border-radius: 10px 10px 10px 10px;
-  text-align: center;
   background-color: white;
-  font-family: "PT Serif", serif;
-  font-size: 1.5em;
-  background-image: url("https://cdn.glitch.com/02600171-b43e-46dd-a21e-bfc0b9a82267%2FcatBG.gif?v=1620459338357");
+  background-image: url("https://cdn.glitch.com/06309045-d841-46c4-b69d-204a6d4df908%2Fmemoria.png?v=1621560993993");
+  background-repeat: no-repeat;
+  background-attachment: cover;
+  background-position: center;
+  background-size: 100%;
+  margin-bottom: 20px;
+}
+.card8 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  padding-top: 110px;
+  padding-bottom: 110px;
+  border-radius: 10px 10px 10px 10px;
+  background-color: white;
+  background-image: url("https://cdn.glitch.com/06309045-d841-46c4-b69d-204a6d4df908%2Fmommy-daddy.jpg?v=1621559532729");
+  background-repeat: no-repeat;
+  background-attachment: cover;
+  background-position: center;
+  background-size: 90%;
+  margin-bottom: 20px;
 }
 
-/* chickenwire make link text glow on hover */
+.card7 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  padding-top: 110px;
+  padding-bottom: 110px;
+  border-radius: 10px 10px 10px 10px;
+  background-color: white;
+  background-image: url("https://cdn.glitch.com/06309045-d841-46c4-b69d-204a6d4df908%2Ffight-or-flight.png?v=1621559533721");
+  background-repeat: no-repeat;
+  background-attachment: cover;
+  background-position: center;
+  background-size: 90%;
+  margin-bottom: 20px;
+}
+.card6 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  padding-top: 110px;
+  padding-bottom: 110px;
+  border-radius: 10px 10px 10px 10px;
+  background-color: white;
+  background-image: url("https://cdn.glitch.com/06309045-d841-46c4-b69d-204a6d4df908%2Fstatistics.jpg?v=1621559533779");
+  background-repeat: no-repeat;
+  background-attachment: cover;
+  background-position: center;
+  background-size: 80%;
+  margin-bottom: 20px;
+}
+.card5 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  padding-top: 110px;
+  padding-bottom: 110px;
+  border-radius: 10px 10px 10px 10px;
+  background-color: white;
+  background-image: url("https://cdn.glitch.com/06309045-d841-46c4-b69d-204a6d4df908%2Fgone-lawn-logo.jpg?v=1621560799803");
+  background-repeat: no-repeat;
+  background-attachment: cover;
+  background-position: center;
+  background-size: 100%;
+  margin-bottom: 20px;
+}
+.card4 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  padding-top: 110px;
+  padding-bottom: 110px;
+  border-radius: 10px 10px 10px 10px;
+  background-color: white;
+  background-image: url("https://cdn.glitch.com/06309045-d841-46c4-b69d-204a6d4df908%2Ftravelplaylive.jpg?v=1621559535479");
+  background-repeat: no-repeat;
+  background-attachment: cover;
+  background-position: center;
+  background-size: 90%;
+  margin-bottom: 20px;
+}
+.card3 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  padding-top: 110px;
+  padding-bottom: 110px;
+  border-radius: 10px 10px 10px 10px;
+  background-color: white;
+  background-image: url("https://cdn.glitch.com/06309045-d841-46c4-b69d-204a6d4df908%2Fscum%20mag.png?v=1621561889032");
+  background-repeat: no-repeat;
+  background-attachment: cover;
+  background-position: center;
+  background-size: 90%;
+  margin-bottom: 20px;
+}
+.card2 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding-top: 110px;
+  padding-bottom: 110px;
+  padding-bottom: 100px;
+  border-radius: 10px 10px 10px 10px;
+  background-color: white;
+  background-image: url("https://cdn.glitch.com/06309045-d841-46c4-b69d-204a6d4df908%2Fvanishing-act.png?v=1621559571034");
+  background-repeat: no-repeat;
+  background-attachment: cover;
+  background-position: center;
+  background-size: 100%;
+  margin-bottom: 20px;
+}
+.card1 {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  padding-top: 110px;
+  padding-bottom: 110px;
+  border-radius: 10px 10px 10px 10px;
+  background-color: white;
+  background-image: url("https://cdn.glitch.com/06309045-d841-46c4-b69d-204a6d4df908%2Fsurfing.jpg?v=1621559532533");
+  background-repeat: no-repeat;
+  background-attachment: cover;
+  background-position: center;
+  background-size: 80%;
+  margin-bottom: 20px;
+}
+
+/* make link text glow on hover */
 a.glow,
 a.glow:hover,
 a.glow:focus {
@@ -205,11 +328,4 @@ a.glow:focus {
     display: block;
     margin-bottom: 20px;
   }
-}
-
-/* grit texture */
-.grit {
-  -webkit-mask-image: url("https://cdn.glitch.com/02600171-b43e-46dd-a21e-bfc0b9a82267%2Fgrit.png?v=1620470501324");
-  mask-image: url("https://cdn.glitch.com/02600171-b43e-46dd-a21e-bfc0b9a82267%2Fgrit.png?v=1620470501324");
-  mask-size: cover;
 }

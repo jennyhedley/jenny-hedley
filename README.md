@@ -1,23 +1,37 @@
-# Hello, and welcome to Glitch
-This is a basic HTML starter project you can build on however you like. No need to save. While you develop your site, your changes will happen 🪄 immediately in the preview window. You can upload assets like images or audio in `assets` to the left. Stylesheets and JavaScript live in the `public` folder. The rest is up to you and your imagination.
+Welcome to Glitch
+=================
+
+Click `Show` in the header to see your app live. Updates to your code will instantly deploy and update live.
+
+**Glitch** is the friendly community where you'll build the app of your dreams. Glitch lets you instantly create, remix, edit, and host an app, bot or site, and you can invite collaborators or helpers to simultaneously edit code with you.
+
+Find out more [about Glitch](https://glitch.com/about).
 
 
-## What's in this project?
+Your Project
+------------
 
-← `README.md`: That's this file, where you can tell people what your cool website does and how you built it.
+### ← README.md
 
-← `index.html`: This is the main HTML page for your site.
+That's this file, where you can tell people what your cool website does and how you built it.
 
-← `style.css`: CSS files add styling rules to your content.
+### ← index.html
 
-← `script.js`: If you're feeling fancy you can add interactivity to your site with JavaScript.
+Where you'll write the content of your website. 
 
+### ← style.css
 
-![Glitch](https://cdn.glitch.com/a9975ea6-8949-4bab-addb-8a95021dc2da%2FLogo_Color.svg?v=1602781328576)
+CSS files add styling rules to your content.
 
-## You built this with Glitch!
+### ← script.js
 
-[Glitch](https://glitch.com) is a friendly community where millions of people come together to build web apps and websites.
+If you're feeling fancy you can add interactivity to your site with JavaScript.
 
-- Need more help? [Check out our Help Center](https://help.glitch.com/) for answers to any common questions.
-- Ready to make it official? [Become a paid Glitch member](https://glitch.com/pricing) to boost your app with private sharing, more storage and memory, domains and more.
+### ← assets
+
+Drag in `assets`, like images or music, to add them to your project
+
+Made by [Glitch](https://glitch.com/)
+-------------------
+
+\ ゜o゜)ノ
