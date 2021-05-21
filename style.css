@@ -30,16 +30,18 @@ img {
 }
 h1 {
   font-family: "Newsreader", serif;
-  color: #E0B788;
+  color: #16DB8E;
   font-size: 2em;
   padding-top: 20px;
   padding-bottom: 20px;
+  text-align: center;
 }
 h2 {
   font-family: "Newsreader", serif;
-  color: #E0B788;
+  color: #DBA527;
   padding-top: 10px;
   padding-bottom: 10px;
+  text-align: center;
 }
 p {
   padding-bottom: 20px;
@@ -55,7 +57,7 @@ body {
   font-size: 12px;
   margin: 3em;
   background: #4F8EDB;
-  background-image: linear-gradient(#362CA8, #4F8EDB, #5B5975);
+  background-image: linear-gradient(#B32CDB, #158F60, #16DB8E)/*(#362CA8, #4F8EDB, #5B5975)*/;
 }
 
 p {
